@@ -1,0 +1,93 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~vue-loading-overlay/dist/vue-loading.css';
+.page-item.active .page-link {
+    background-color: red !important;
+    border-color: red !important;
+}
+
+.pagination.active {
+    background-color: red !important;
+    border-color: red !important;
+}
+
+.paging_simple_numbers.dataTables_paginate {
+    background: rgb(240, 235, 235);
+    padding: 5px 5px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next {
+    margin-left: 0px;
+    font-size: 18px;
+    margin: 0 2px;
+    border: 0 !important;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 1rem;
+    line-height: 54px;
+    display: inline-block;
+    color: var(--primary) !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next {
+    font-size: 18px;
+    line-height: 54px;
+    color: var(--primary) !important;
+}
+
+.dataTables_wrapper .dataTables_paginate span .paginate_button {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin-left: 0px;
+    margin: 0 2px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 1rem;
+    color: var(--primary) !important;
+    border: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate span .paginate_button {
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin-left: 0px;
+    margin: 0 2px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 1rem;
+    color: var(--primary) !important;
+    border: 0 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate span .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate span .paginate_button:hover {
+    color: var(--primary) !important;
+    background: #fff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.previous,
+.dataTables_wrapper .dataTables_paginate .paginate_button.next {
+    margin-left: 0px;
+    font-size: 18px;
+    margin: 0 2px;
+    border: 0 !important;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border-radius: 1rem;
+    line-height: 54px;
+    display: inline-block;
+    color: var(--primary) !important;
+}
